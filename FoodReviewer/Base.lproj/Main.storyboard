@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fna-i2-RC6">
-                                <rect key="frame" x="20" y="40" width="355" height="96.5"/>
+                                <rect key="frame" x="20" y="40" width="335" height="424.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8S-pk-QXV">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -28,7 +29,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wzH-zV-q0v">
-                                        <rect key="frame" x="0.0" y="28.5" width="355" height="30"/>
+                                        <rect key="frame" x="0.0" y="28.5" width="335" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -40,6 +41,12 @@
                                             <action selector="setLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VvC-oG-hVf"/>
                                         </connections>
                                     </button>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="s5m-py-LSx">
+                                        <rect key="frame" x="0.0" y="104.5" width="320" height="320"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="s5m-py-LSx" secondAttribute="height" multiplier="1:1" id="nK0-Jx-5Gh"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="wzH-zV-q0v" secondAttribute="trailing" id="mDc-vl-9EE"/>
@@ -50,13 +57,14 @@
                         <constraints>
                             <constraint firstItem="Fna-i2-RC6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LNq-wv-LzO"/>
                             <constraint firstItem="Fna-i2-RC6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="pdf-uS-TJI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fna-i2-RC6" secondAttribute="trailing" id="sCj-Dc-csH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fna-i2-RC6" secondAttribute="trailing" constant="20" id="sCj-Dc-csH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="mealNameLabel" destination="F8S-pk-QXV" id="VrB-a4-jGx"/>
                         <outlet property="nameTextField" destination="wzH-zV-q0v" id="Tm5-uK-FGv"/>
+                        <outlet property="photoImageView" destination="s5m-py-LSx" id="ehV-oN-lVe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -64,4 +72,7 @@
             <point key="canvasLocation" x="125.59999999999999" y="31.934032983508249"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="defaultPhoto" width="540" height="540"/>
+    </resources>
 </document>
