@@ -51,7 +51,7 @@
                                             <outletCollection property="gestureRecognizers" destination="HRE-IM-ut2" appends="YES" id="IfA-t4-cG3"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9kj-CX-lak" customClass="RatingControl" customModule="FoodReviewer" customModuleProvider="target">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9kj-CX-lak" customClass="RatingControl" customModule="FoodReviewer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="432.5" width="200" height="110"/>
                                     </stackView>
                                 </subviews>
