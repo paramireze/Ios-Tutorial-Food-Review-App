@@ -13,6 +13,7 @@
 		1053614720C40FCB00988AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1053614620C40FCB00988AFE /* Assets.xcassets */; };
 		1053614A20C40FCB00988AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1053614820C40FCB00988AFE /* LaunchScreen.storyboard */; };
 		10AF7E1F20E3ADF2001AE820 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AF7E1E20E3ADF2001AE820 /* RatingControl.swift */; };
+		10AF7E2320F195FA001AE820 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AF7E2220F195FA001AE820 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1053614920C40FCB00988AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1053614B20C40FCB00988AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10AF7E1E20E3ADF2001AE820 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		10AF7E2220F195FA001AE820 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1053613F20C40FC800988AFE /* AppDelegate.swift */,
 				1053614120C40FC800988AFE /* ViewController.swift */,
 				10AF7E1E20E3ADF2001AE820 /* RatingControl.swift */,
+				10AF7E2220F195FA001AE820 /* Meal.swift */,
 				1053614320C40FC800988AFE /* Main.storyboard */,
 				1053614620C40FCB00988AFE /* Assets.xcassets */,
 				1053614820C40FCB00988AFE /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AF7E2320F195FA001AE820 /* Meal.swift in Sources */,
 				1053614220C40FC800988AFE /* ViewController.swift in Sources */,
 				10AF7E1F20E3ADF2001AE820 /* RatingControl.swift in Sources */,
 				1053614020C40FC800988AFE /* AppDelegate.swift in Sources */,
