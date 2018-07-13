@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Meal Table View Controller-->
         <scene sceneID="wFp-id-LER">
             <objects>
-                <tableViewController id="mC7-pv-NAJ" sceneMemberID="viewController">
+                <tableViewController id="mC7-pv-NAJ" customClass="MealTableViewController" customModule="FoodReviewer" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tes-mQ-BK4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9kj-CX-lak" customClass="RatingControl" customModule="FoodReviewer" customModuleProvider="target">
-                                        <rect key="frame" x="76.5" y="394.5" width="182" height="32"/>
+                                        <rect key="frame" x="19.5" y="394.5" width="296" height="32"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="size" keyPath="starSize">
                                                 <size key="value" width="30" height="32"/>

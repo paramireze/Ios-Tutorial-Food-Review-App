@@ -9,46 +9,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FoodReviewer/RatingControl.swift"
-            timestampString = "552918525.1384619"
+            filePath = "FoodReviewer/MealTableViewController.swift"
+            timestampString = "553174677.514658"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "rating"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FoodReviewer.RatingControl.rating.getter : Swift.Int"
-                  moduleName = "FoodReviewer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/per245/projects/ios/FoodReviewer/FoodReviewer/RatingControl.swift"
-                  timestampString = "552663940.85675"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "97">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FoodReviewer.RatingControl.rating.setter : Swift.Int"
-                  moduleName = "FoodReviewer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/per245/projects/ios/FoodReviewer/FoodReviewer/RatingControl.swift"
-                  timestampString = "552663940.85992"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "98">
-               </Location>
-            </Locations>
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

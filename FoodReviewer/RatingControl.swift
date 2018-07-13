@@ -13,16 +13,22 @@ import UIKit
     
     //MARK: --Properties
     private var ratingButtons = [UIButton]()
+    
+    var rating = 0 {
+        didSet {
+            updateButtonSelectionStates()
+        }
+    }
+    
     @IBInspectable var starSize: CGSize = CGSize(width: 44.0, height: 44.0) {
         didSet {
             setupButtons()
         }
     }
-    @IBInspectable var starCount: Int = 5
     
-    var rating = 0 {
+    @IBInspectable var starCount: Int = 5 {
         didSet {
-            updateButtonSelectionStates()
+            setupButtons()
         }
     }
     
